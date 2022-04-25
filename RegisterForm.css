@@ -1,0 +1,162 @@
+#form{
+    padding: 20px;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: auto;
+    width: 60%;
+    background-color: rgb(100, 107, 165);
+    color: aliceblue;
+}
+#head{
+    background-color: rgb(132, 75, 165);
+    color: rgb(255, 255, 253);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    border:0px;
+    padding:20px;
+
+}
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    border-style: double;
+    border-width: 4px;
+    color: aliceblue;
+
+}
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: left;
+    width: 200px;
+    vertical-align: top;
+    color: aliceblue;
+
+
+}
+table,th,td {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(129, 71, 110);
+    color: aliceblue;
+
+  }
+  th,td {
+    padding: 10px;
+  }
+  th {
+    text-align: left;
+  }
+
+  .input-field {
+    margin-bottom: 12px;
+  }
+
+  .mt {
+    margin-top: 40px;
+  }
+
+/* Demo for display and visivility concepts */
+.Demo{
+  background-color: rgb(114, 216, 131);
+  padding:20px;
+  border:0px;
+  color: aliceblue;
+
+
+}
+.Dposition{
+    height: auto;
+    background-color: rgb(243, 21, 51);
+    width: 100%;
+    padding: 10px 60px;
+    margin-bottom: 20px;
+    color: aliceblue;
+
+}
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 2px solid #e6779abe;
+    width: 50%;
+    color: aliceblue;
+
+  }
+div.static {
+    left: 30px;
+    position: static;
+    border: 2px solid #1591a7;
+    width: 50%;
+    color: aliceblue;
+
+  }
+
+.float{
+    height: 150px;
+    background-color: rgb(151, 221, 37);
+    padding: 10px 40px;
+    color: aliceblue;
+
+}
+
+.left{
+      float: left;
+      background-color: rgb(134, 11, 235);
+      width: 100px;
+      height: 50px;
+      border-radius: 30%;
+      text-align: center;
+      padding: 10px;
+      color: aliceblue;
+
+}
+.right{
+      float: right;
+      background-color: #f50cbb;
+      width: 100px;
+      height: 50px;
+      border-radius: 30%;
+      text-align: center;
+      padding: 10px;
+      color: aliceblue;
+
+}
+
+.display{
+      height: auto;
+      margin-bottom: 40px;
+      background-color: rgb(250, 119, 11);
+      padding: 10px 40px;
+      color: aliceblue;
+
+}
+.visibility{
+      height: auto;
+      margin-bottom: 40px;
+      background-color: rgb(14, 163, 233);
+      padding: 10px 40px;
+      color: aliceblue;
+
+
+}
+h2.a {
+    visibility: visible;
+}
+  
+h2.b {
+  border-style: dotted;
+  border-color: black;
+  border-width: 4px;
+  visibility: hidden;
+  color: aliceblue;
+
+}
